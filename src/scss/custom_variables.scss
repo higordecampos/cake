@@ -1,0 +1,38 @@
+$blue: #24457b !default;
+$dark-blue: #476ca8 !default;
+$brown: #9a732a !default;
+$gray: #aaaaaa !default;
+$light: #f4f4fd !default;
+$red: #ff0000 !default;
+$gray-light: #9a9a9a !default;
+$gray-dark: #757b82 !default;
+$brown-dark: #997127 !default;
+$background: #ebf6fc !default;
+
+$primary: $blue !default;
+$danger: $red !default;
+
+$body-color: $blue;
+$body-bg: $background;
+$font-family-base: "Open Sans", sans-serif;
+
+$input-border-color: $brown-dark;
+
+$font-size-base: 1rem !default;
+$font-size-lg: ($font-size-base * 1.25) !default;
+$font-size-sm: ($font-size-base * 0.875) !default;
+$font-weight-normal: 400 !default;
+$font-weight-base: $font-weight-normal !default;
+$line-height-base: 1.5 !default;
+
+$h1-font-size: $font-size-base * 3.4 !default;
+$h2-font-size: $font-size-base * 1.68 !default;
+$h3-font-size: $font-size-base * 1.68 !default;
+$h4-font-size: $font-size-base * 2.53 !default;
+
+$hr-border-width: 0.12rem;
+$hr-border-color: $gray-light;
+
+$input-btn-padding-y: 1.1rem !default;
+
+$input-placeholder-color: $primary !default;

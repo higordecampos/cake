@@ -1,0 +1,110 @@
+.form__title {
+  margin: 3.5rem 0 2rem;
+  text-decoration: underline;
+}
+
+.form__label {
+  color: $blue;
+  font-family: Quicksand;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.form__btn {
+  margin-bottom: 6.25rem;
+  border-radius: 3.125rem;
+  font-size: 1.3125rem;
+  padding: 0.9375rem 3.125rem;
+}
+
+.form-control::placeholder {
+  font-family: "QuickSand", sans-serif;
+}
+
+.form__radio__wrapper {
+  & img,
+  label:before {
+    cursor: pointer;
+  }
+}
+
+.input-error {
+  border: $red 1px solid;
+}
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label:before {
+  content: "";
+  display: inline-block;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  padding: 0px;
+  margin-right: 0.1875rem;
+  background-clip: content-box;
+  border: 0.125rem solid $brown;
+  background-color: $white;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked + label:before {
+  background-color: $brown;
+  padding: 0.1875rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  font-size: 1.6875rem;
+  filter: brightness(0) saturate(100%) invert(76%) sepia(10%) saturate(2%)
+    hue-rotate(336deg) brightness(89%) contrast(87%);
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  font-size: 1.6875rem;
+  filter: brightness(0) saturate(100%) invert(76%) sepia(10%) saturate(2%)
+    hue-rotate(336deg) brightness(89%) contrast(87%);
+}
+
+input[type="time"] {
+  padding: 0.75rem;
+}
+input[type="date"] {
+  padding: 0.875rem;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  font-size: 1.6875rem;
+  filter: brightness(0) saturate(100%) invert(76%) sepia(10%) saturate(2%)
+    hue-rotate(336deg) brightness(89%) contrast(87%);
+}
+select.customDropdown {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.custom-select-icon {
+  position: absolute;
+  top: 2.125rem;
+  right: 2.125rem;
+  transform: translateY(-50%);
+  pointer-events: none;
+
+  svg {
+    fill: $gray;
+  }
+}
+.error-message {
+  color: #896c5d;
+  font-family: Quicksand;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding-top: 0.5rem;
+}

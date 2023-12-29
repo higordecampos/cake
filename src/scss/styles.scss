@@ -1,0 +1,25 @@
+@import "custom_variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./forms";
+@import "./grid";
+@import "./typography";
+
+body {
+  background-color: $background;
+}
+
+.truncate-text {
+  max-width: 900px;
+}
+
+.img__title {
+  margin: 3.75rem 0 2rem;
+}
+
+.page__title {
+  margin: 6.2rem 0 2rem;
+}
+
+.img__item {
+  max-width: 450px;
+}

@@ -1,0 +1,12 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+h1 {
+  color: #24457B;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input-error {
+  border: red 1px solid;
+}/*# sourceMappingURL=styles.css.map */
